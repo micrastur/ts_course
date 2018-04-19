@@ -1,4 +1,3 @@
-
 //                            Basic Types:
 let userName: string = 'Vasya';                 // 1. String type;
 let userAge: number = 27;                       // 2. Number type;
@@ -11,10 +10,11 @@ let userFriends: string[] = [
 let userFriendsAge: number[] = [
     28, 32, 35
 ];
-let userContacts: [number, string] | any[] = [
+let userContacts: [number, string] = [
     34576543789, 'user@gmail.com'
 ];
-let userPetCount: string|number = 2             // 5. Tuple type / Any;
+let userPetCount: string|number = 2.5          // 5. Tuple type / Any;
+
 enum FavoriteColor {
     Red, Green = 5, Blue
 }                                               // 6. Enum type;
@@ -31,7 +31,7 @@ console.log(setUserAge(1));
 let phoneModel: undefined = undefined;          // 8. Undefined type;
 let phoneNumber: null = null;                   // 9. Null type;
 
-let commonUserData: {
+const commonUserData: {
     name: string,
     age: number,
     hasBrother: boolean
@@ -39,4 +39,4 @@ let commonUserData: {
     name: 'Vasya',
     age: 27,
     hasBrother: true
-}
+};
