@@ -12,7 +12,7 @@ var userFriendsAge = [
     28, 32, 35
 ];
 var userContacts = [
-    'user@gmail.com', 34576543789
+    34576543789, 'user@gmail.com'
 ];
 var userPetCount = 2.5; // 5. Tuple type / Any;
 var FavoriteColor;
@@ -26,7 +26,6 @@ var colorName = FavoriteColor[5];
 console.log(colorName);
 function setUserAge(year) {
     userAge += year;
-    return userAge;
 } // 7. Void type;
 console.log(setUserAge(1));
 var phoneModel = undefined; // 8. Undefined type;
