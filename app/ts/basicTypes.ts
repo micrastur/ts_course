@@ -31,7 +31,7 @@ console.log(setUserAge(1));
 let phoneModel: undefined = undefined;          // 8. Undefined type;
 let phoneNumber: null = null;                   // 9. Null type;
 
-const commonUserData: {
+export const commonUserData: {
     name: string,
     age: number,
     hasBrother: boolean

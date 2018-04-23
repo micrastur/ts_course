@@ -9,15 +9,13 @@
 <body>
     <div>
         <h2>Short course</h2>
-        <div id="userData">
-
-        </div>
+        <div id="userData"></div>
     </div>
 </body>
 <script src="node_modules/systemjs/dist/system.js"></script>
     <script>
        SystemJS.config({
-           baseURL: '/app/js/tsInterfaces.js',
+           baseURL: '/app/build/',
            packages: {
                 '': {
                     defaultExtension: 'js'

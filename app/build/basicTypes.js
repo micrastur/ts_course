@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //                            Basic Types:
 var userName = 'Vasya'; // 1. String type;
 var userAge = 27; // 2. Number type;
@@ -30,7 +31,7 @@ function setUserAge(year) {
 console.log(setUserAge(1));
 var phoneModel = undefined; // 8. Undefined type;
 var phoneNumber = null; // 9. Null type;
-var commonUserData = {
+exports.commonUserData = {
     name: 'Vasya',
     age: 27,
     hasBrother: true

@@ -1,4 +1,7 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+//                          Interfaces
+var basicTypes_1 = require("./basicTypes");
 function generateUserContent(data) {
     var content = data.name + " " + data.age + " " + data.hasBrother;
     var userData = document.getElementById('userData');
@@ -6,13 +9,5 @@ function generateUserContent(data) {
     data.petName('dsfsdf');
 }
 window.onload = function () {
-    var userData = {
-        name: 'Vasya',
-        age: 27,
-        hasBrother: true,
-        petName: function (name) {
-            console.log(name);
-        }
-    };
-    generateUserContent(commonUserData);
+    generateUserContent(basicTypes_1.commonUserData);
 };
