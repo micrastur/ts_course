@@ -1,7 +1,10 @@
+/* /// <reference path="nameSpaces/nameSpaces" /> */
+
+import { UserInfo } from './nameSpaces/nameSpaces';
 import { commonUserData } from './basicTypes/basicTypes';
-import generateUserContent from './tsInterfaces/tsInterfaces';
+import UserContent = UserInfo.UserContent;
 
 window.onload = () => {
-    console.log('s', generateUserContent);
-    generateUserContent(commonUserData);
+    console.log(UserInfo, UserContent)
+    UserContent.generateUserContent(commonUserData);
 }
