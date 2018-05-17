@@ -34,9 +34,13 @@ let phoneNumber: null = null;                   // 9. Null type;
 export const commonUserData: {
     name: string,
     age: number,
-    hasBrother: boolean
+    hasBrother: boolean,
+    savings: number,
+    visitedCountries: string[]
 } = {
     name: 'Vasya',
     age: 27,
-    hasBrother: true
+    hasBrother: true,
+    savings: 1000,
+    visitedCountries: [],
 };
