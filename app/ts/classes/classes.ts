@@ -2,13 +2,18 @@
 
 abstract class User {
     protected userName!: string;
+    public readonly height: number = 186;
     //private userName!: string;
     getUserName(): string {
-        return this.userName
+        return this.userName;
     }
     setUsername(name: string): void {
-        this.userName = name
+        this.userName = name;
     }
+
+    // changeHeight(height): void {
+    //     this.height += height;
+    // }
 }
 
 export default class UniqUser extends User {
