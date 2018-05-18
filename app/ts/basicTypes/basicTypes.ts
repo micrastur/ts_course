@@ -36,7 +36,7 @@ export const commonUserData: {
     age: number,
     hasBrother: boolean,
     savings: number,
-    visitedCountries: string[]
+    visitedCountries: any,
 } = {
     name: 'Vasya',
     age: 27,
