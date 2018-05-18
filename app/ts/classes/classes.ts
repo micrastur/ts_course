@@ -26,7 +26,6 @@ export default class UniqUser extends User {
         this.setUsername(name);
         console.log(this.userName, this.jobPosition);
     }
-
 }
 
 //var c = new User();
